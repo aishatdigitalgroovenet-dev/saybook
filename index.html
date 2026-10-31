@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="SAYBOOK: plan your nonfiction book with the Double Helix Map. Align your argument and your advice chapter by chapter before you write.">
+<meta name="theme-color" content="#0F1E3D">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%A7%AC%3C/text%3E%3C/svg%3E">
+<title>SAYBOOK: architect your book before you write it</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;600;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="top"><div class="wrap">
+<a class="logo" href="#home">SAYBOOK</a><a href="#dhm">The map</a><a href="#arc">ARC</a><a href="#say">SAY</a><a href="#pricing">Pricing</a><a href="#faq">FAQ</a><a class="btn sm" href="#app">Open the workspace</a></div></nav>
+
+<main id="home">
+<header class="hero"><div class="wrap">
+<div><h1>Architect your book before you write it.</h1>
+<p>SAYBOOK lays out your argument and your advice side by side, chapter by chapter. Every claim gets its instruction, every chapter gets its structure, and you write only once the frame holds.</p>
+<a class="btn" href="#app">Build your Double Helix Map</a> <a class="btn alt" href="#how">See how it works</a></div>
+<svg id="helix" viewBox="0 0 440 400" role="img" aria-label="Two strands, Grand Narrative and Grand Advice, joined by chapter rungs"></svg>
+</div></header>
+
+<section class="s" id="dhm"><div class="wrap">
+<h2>The Double Helix Map</h2>
+<p>Most outlines list chapter titles. The Double Helix Map (DHM) gives each chapter a verdict to prove and the advice that goes with it, so the book can’t explain without instructing.</p>
+<div class="dhm"><div class="n"><b>Grand Narrative</b>The Story of Thesis. One main sentence per chapter. Read top to bottom, the sentences form a single argument.</div><div><b>Development</b>The SAY syntax for the chapter, such as SYA + ASA + YAA, so each module is built in a different order.</div><div class="a"><b>Grand Advice</b>The Main Advice Statements. For every verdict you deliver, a command or capability the reader can use.</div></div>
+<p class="mut" style="margin-top:14px">Leave the Advice column empty for a chapter and the book is “unzipped”: a thesis with no instruction. The workspace flags it.</p>
+</div></section>
+
+<section class="s sf" id="arc"><div class="wrap">
+<h2>Three chords, one persuasive ARC</h2>
+<div class="cols">
+<div class="box"><span class="badge A">A</span><h3>Awareness</h3><p>The contextual problem. What has changed, and why the old situation needs attention.</p></div>
+<div class="box"><span class="badge R">R</span><h3>Resolution</h3><p>The methodological problem. The framework or method that answers it.</p></div>
+<div class="box"><span class="badge C">C</span><h3>Call to Action</h3><p>The operational problem. The behaviors and capabilities the reader must adopt.</p></div></div>
+<p style="margin-top:16px">How many chapters each chord gets depends on your plan: 1-3-1, 2-3-2 or 3-4-2.</p>
+</div></section>
+
+<section class="s" id="say"><div class="wrap">
+<h2>SAY: the modules inside each chapter</h2>
+<div class="cols">
+<div class="box"><h3>S: Story</h3><p>The situated context that hooks the reader.</p></div>
+<div class="box"><h3>Y: Yielded Evidence</h3><p>Just enough proof to hold the story and advice together.</p></div>
+<div class="box"><h3>A: Advice</h3><p>The specific instruction the reader can act on.</p></div></div>
+<p style="margin-top:16px">A SAY point is a hollow module, about 200–300 words once written. In SAYBOOK you only place it: a one-line micro-sentence and a short note for each part. Syntax strings set the order, for example <b>SYA</b> (story-led), <b>ASA</b> (advice-led) or <b>YAA</b> (evidence-led).</p>
+</div></section>
+
+<section class="s sf" id="how"><div class="wrap">
+<h2>How SAYBOOK works</h2>
+<div class="cols">
+<div class="box"><h3>1. State your wish</h3><p>Enter your title and your Main Outline Wish: what the book should achieve.</p></div>
+<div class="box"><h3>2. Fill the map</h3><p>Write each chapter’s verdict and advice, choose its SAY syntax, then add subheadings and SAY points.</p></div>
+<div class="box"><h3>3. Audit and export</h3><p>Read the argument as one chain, fix the gaps the audit finds, and print the map as a PDF.</p></div></div>
+<h3 style="margin-top:32px">Walkthrough slides</h3>
+<div class="deck" id="deck" role="region" aria-roledescription="carousel" aria-label="SAYBOOK walkthrough"><div class="sl" id="sl" aria-live="polite"></div><div class="dc"><button class="btn alt sm" id="sprev">Previous</button><span id="sdots"></span><button class="btn sm" id="snext">Next</button></div></div>
+<h3 style="margin-top:32px">Official demo video and slides</h3>
+<div class="slot">The SAYBOOK demo video and slides will appear here once provided.</div>
+</div></section>
+
+<section class="s" id="pricing"><div class="wrap">
+<h2>Choose your map size</h2>
+<p class="mut">Checkout is not connected yet. Pick a plan to try the workspace with that plan’s limits.</p>
+<div class="plans" id="plans"></div>
+</div></section>
+
+<section class="s sf" id="faq"><div class="wrap"><h2>Questions</h2>
+<details class="faq"><summary>Is SAYBOOK a writing tool?</summary><p>No. It plans the book. You build the structure first, then write into it.</p></details>
+<details class="faq"><summary>Does it write my outline with AI?</summary><p>No. The map is filled in by you. The audit only checks structure, such as empty fields and repeated syntax. It does not judge whether your argument is good.</p></details>
+<details class="faq"><summary>Where is my work stored?</summary><p>In this demo, in your browser only. Accounts and cloud saving come with the full app.</p></details>
+<details class="faq"><summary>Can I get a PDF?</summary><p>Yes. The Export tab downloads your map as a PDF. It is a static, print-ready document, not a fillable form; a fillable version is planned.</p></details>
+<details class="faq"><summary>What about upgrades and the Founding Member limit?</summary><p>Founding Member places are limited to 50. Upgrade rules will be confirmed before checkout opens.</p></details>
+</div></section>
+
+<section class="s"><div class="wrap" style="text-align:center"><h2>Start with the structure.</h2><a class="btn" href="#app">Build your Double Helix Map</a></div></section>
+<footer><div class="wrap">SAYBOOK. The Double Helix Map for nonfiction authors.</div></footer>
+</main>
+
+<main id="app"><div class="wrap" id="appbody"></div></main>
+<dialog id="dlg"><p id="dmsg"></p><div style="display:flex;gap:8px;justify-content:flex-end"><button class="btn alt sm" id="dno">Cancel</button><button class="btn sm" id="dyes">Confirm</button></div></dialog>
+
+<script src="app.js"></script>
+</body>
+</html>
